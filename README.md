@@ -1,10 +1,16 @@
-## Elderly-Care-Management-System-ECMS-Flutterr
-### Group Members
+# flutter_application_1
 
-| Name               | ID           |
-|--------------------|--------------|
-| Eyasu Getaneh      | UGR/4953/15  |
-| Feven Issayas      | UGR/9815/15  |
-| Fenety Damtew      | UGR/2838/15  |
-| Fromsis Jafar      | UGR/0854/15  |
-| Hailemichael Molla | UGR/3629/15  |
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
