@@ -1,4 +1,4 @@
-name: flutter_application_1
+name: elderly_care
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -19,7 +19,8 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.0
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,14 +31,26 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  provider: ^6.1.0
+  dio: ^5.4.0
+  flutter_riverpod: ^3.0.0-dev.15
+  http: ^1.2.1
+  flutter_bloc: ^8.1.3
+  go_router: ^14.1.1
+  shared_preferences: ^2.2.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+  mocktail: ^1.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
+  custom_lint:
+  riverpod_lint: ^3.0.0-dev.15
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -56,6 +69,18 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - lib/assets/images/logo.png
+    - lib/assets/images/supportive.png
+    - lib/assets/images/reliable.png
+    - lib/assets/images/easy.png
+    - lib/assets/images/emphatethic.png
+    - lib/assets/images/sugar_level.png
+    - lib/assets/images/profile_pic.png
+    - lib/assets/images/heart_rate.png
+    - lib/assets/images/blood_pressure.png
+    - lib/assets/images/profile.png
+    - lib/assets/images/upload.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
